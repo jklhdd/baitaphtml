@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+    <style>
+        input{
+            width: 230px;
+        }
+        select{
+            width: 230px;
+        }
+        button{
+            width: 230px;
+            height: 30px;
+            text-align: left;
+            color: white;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <form method="get" action="http://google.com.vn"/>
+    <p>Your name</p>
+    <input type="text" name="name" required />
+    <p>Your email</p>
+    <input type="email" name="email" required />
+    <p>About project</p>
+    <textarea name="aboutproject" cols="30" rows="10"></textarea>
+    <p>Project budget?</p>
+    <select name="projectbudget">
+        <option value="" disabled selected>Not defined at the moment</option>
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </select>
+    <p>When would you like to start</p>
+    <input type="date" name="date" placeholder="Not defined at the moment" required />
+    <p>Are you human ? 21+11=? </p>
+    <input type="number" name="number" required /></br>
+    <img src="Capture.PNG">
+    <p><button type="submit">Submit</button></p>
+    
+
+</body>
+</html>
