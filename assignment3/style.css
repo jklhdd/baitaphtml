@@ -1,0 +1,21 @@
+
+.leftcontent{
+    width: 600px;
+    font-family: "Nunito Sans";
+    text-align: justify;
+    font-size: 16pt;
+
+
+}
+
+.leftcontent h1 {
+    text-align: left;
+    font-family: "Montserrat Medium";
+    font-size: 38pt;
+}
+
+.leftcontent span{
+    color: rgba(0 , 0 , 0 , 0.7);
+}
+
+
