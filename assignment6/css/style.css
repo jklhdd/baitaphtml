@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 181px;
+    float: left;
+
+}
+.smallheader{
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-bottom-color: #edeff1;
+}
+.contact{
+    width: 137px;
+    height: 60px;
+    padding-top: 15px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    float: left;
+
+}
+
+.text{
+    padding-left: 10px;
+    font-size: 12px;
+    text-align: right;
+    font-family: "Myriad Pro";
+}
+.icon{
+    padding-top: 20px;
+    width: 30px;
+    height: 60px;
+    float: right;
+    box-sizing: border-box;
+    color: #34404b;
+    text-align: right;
+}
+.bigheader{
+    width: 100%;
+    height: 121px;
+    box-sizing: border-box;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-bottom-color: #edeff1;
+
+}
+
+.logo{
+    padding-right: 42px;
+    float: left;
+    padding-top: 40px;
+}
+.link{
+    padding-left: 42px;
+    float: left;
+    padding-top: 50px;
+    font-size: 16px;
+    font-family: "Myriad Pro";
+}
+.icon2{
+
+    padding-left: 33px;
+    padding-top: 50px;
+    float: right;
+    font-size: 20px;
+    box-sizing: border-box;
+    text-align: right;
+
+}
+.cart{
+    padding-left: 33px;
+    padding-top: 35px;
+    float: right;
+    font-size: 20px;
+    box-sizing: border-box;
+    text-align: right;
+}
+section{
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+.content1{
+    width: 100%;
+    height: 551px;
+    box-sizing: border-box;
+    margin-top: 102px;
+}
+.block1{
+    width: 482px;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+}
+.block1img{
+    margin-top: 70px;
+}
+.block2{
+    width: calc(100% - 550px);
+    float: left;
+}
+.headline{
+    font-family: "Myriad Pro";
+    font-size: 53px;
+    font-weight: bolder;
+    color: orangered;
+    padding-bottom: 29px;
+    text-align: left;
+}
+.headline2{
+    font-family: "Myriad Pro Light";
+    font-weight: bold;
+    font-size: 18px;
+
+    padding-bottom: 35px;
+
+}
+.detail{
+
+    padding-right: 70px;
+    line-height: 17px;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-bottom-color: #edeff1;
+    padding-bottom: 45px;
+}
+
+.choice{
+    font-family: "Myriad Pro";
+    width: 50%;
+    float: left;
+    padding-top: 45px;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-bottom-color: #edeff1;
+    padding-bottom: 45px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.headchoice{
+    font-family: "Myriad Pro";
+    font-size: 18px;
+    padding-right: 35px;
+}
+.choice2{
+    font-family: "Myriad Pro";
+    width: 50%;
+    text-align: right;
+    float: left;
+    padding-top: 45px;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-bottom-color: #edeff1;
+    padding-bottom: 45px;
+    box-sizing: border-box;
+}
+
+
+.price{
+    width: 50%;
+    float: left;
+    padding-top: 55px;
+    font-family: "Myriad Pro";
+    font-weight: bold;
+    font-size: 20px;
+    color: #727a81;
+}
+.order{
+    width: 50%;
+    padding-top: 8px;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 40px;
+
+}
+.ordericon{
+    padding-right: 25px;
+    padding-top: 45px;
+    float: left;
+}
+.ordericon2{
+    padding-right: 25px;
+    padding-top: 40px;
+    float: left;
+}
+.orderb{
+    padding-top: 25px;
+    float: left;
+}
+
+.content2{
+    width: 100%;
+    height: 1050px;
+    box-sizing: border-box;
+    margin-top: 102px;
+    background-color: #f4f6f8;
+}
+.related{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    box-sizing: border-box;
+
+
+}
+.headrelated{
+    font-family: "Myriad Pro";
+    font-weight: bolder;
+    font-size: 28px;
+    padding-top: 120px;
+    padding-bottom: 30px;
+
+}
+.textrelated{
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    padding-bottom: 83px;
+}
+
+.box{
+    width: 270px;
+    height: 365px;
+    background-color: white;
+    float: left;
+    padding-top: 37px;
+
+}
+.box2{
+    width: 270px;
+    height: 365px;
+    margin: 0px 0px 0px 30px ;
+    background-color: white;
+    float: left;
+    padding-top: 37px;
+}
+.boxtext{
+    font-family: "Myriad Pro";
+    font-weight: bold;
+    color: #6e767d;
+    font-size: 18px;
+    padding-top: 34px;
+ }
+.letter{
+    width: 100%;
+    height: 125px;
+    background-color: white;
+    float: left;
+    margin-top: 125px;
+}
+.letter1{
+    width: 50%;
+    height: 125px;
+    box-sizing: border-box;
+    float: left;
+}
+.letter1head{
+    padding: 50px 28px 53px 66px;
+    font-family: "Myriad Pro";
+    font-weight: bolder;
+    font-size: 18px;
+    float: left;
+    color: orangered;
+}
+.lettertext{
+    font-family: "Myriad Pro";
+    font-size: 13px;
+    font-style: italic;
+    float: left;
+    color: #646c74;
+    padding: 53px 0px 53px 0px;
+}
+.letter2{
+    width: 50%;
+    height: 125px;
+    box-sizing: border-box;
+    float: left;
+}
+.email{
+    width: 50%;
+    height: 125px;
+    float: left;
+    padding: 45px 0px 53px 20px;
+    text-align: right;
+    box-sizing: border-box;
+    font-family: "Myriad Pro";
+    font-size: 13px;
+    font-style: italic;
+    color: #c5c9cd;
+}
+.emailtext{
+    padding-top: 7px;
+    float: right;
+    padding-left: 20px;
+}
+
+
+
+
+.join{
+    width: 50%;
+    padding-top: 38px;
+    padding-right: 45px;
+    text-align: right;
+    float: left;
+    box-sizing: border-box;
+}
+footer{
+    width: 100%;
+    height: 250px;
+    float: left;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    color: #34404b;
+}
+.footerlogo{
+    width: 34%;
+    padding-top: 90px;
+    float: left;
+    box-sizing: border-box;
+    line-height: 27px;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    color: #34404b;
+
+}
+.footerblocktext{
+    width: 17%;
+
+    float: left;
+    box-sizing: border-box;
+    padding-top: 89px;
+    line-height: 20px;
+
+}
+.payment{
+    padding-top: 93px;
+    float: left;
+    box-sizing: border-box;
+    line-height: 23px;
+    color: orangered;
+    font-size: 16px;
+
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    float: none;
+
+
+
+}
