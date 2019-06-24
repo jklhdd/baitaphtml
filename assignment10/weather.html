@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather</title>
+    <script type="text/javascript" src="javascript/jquery.js"></script>
+    <link rel="stylesheet" href="css/weatherstyle.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <th>City</th>
+            <th>Temp</th>
+            <th>Min Temp</th>
+            <th>Max Temp</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td id="city"></td>
+            <td id="temp"></td>
+            <td id="max"></td>
+            <td id="min"></td>
+            <td id="des"></td>
+
+        </tr>
+
+    </table>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $.ajax({
+                url: "weather.json",
+                method: "get",
+                success: function (data) {
+                    $("#city").text(data.name);
+                    $("#temp").text(data.main.temp);
+                    $("#max").text(data.main.temp_max);
+                    $("#min").text(data.main.temp_min);
+                    $("#des").text(data.weather[0].description);
+                }
+            });
+
+        });
+    </script>
+
+</body>
+</html>
