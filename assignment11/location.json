@@ -1,0 +1,34 @@
+{
+  "location": [
+    {
+      "name": "London",
+      "address": "180-182 Regent Street, London, W1B 5BT",
+      "phone": "0123-456-789",
+      "website": "www.yourwebsite.com",
+      "mail": "support@yourwebsite.com",
+      "time": "Monday-Friday: 9am to 6pm  Saturday: 10am to 6pm  Sunday: 10am to 2pm",
+      "lat": 51.50853,
+      "long": 0.1278
+    },
+    {
+      "name": "New York",
+      "address": "180-182 Regent Street, New York, W1B 5BT",
+      "phone": "0123-456-789",
+      "website": "www.yourwebsite.com",
+      "mail": "support@yourwebsite.com",
+      "time": "Monday-Friday: 9am to 6pm  Saturday: 10am to 6pm  Sunday: 10am to 2pm",
+      "lat": 40.71427,
+      "long": -74.00597
+    },
+    {
+      "name": "Paris",
+      "address": "180-182 Regent Street, Paris, W1B 5BT",
+      "phone": "0123-456-789",
+      "website": "www.yourwebsite.com",
+      "mail": "support@yourwebsite.com",
+      "time": "Monday-Friday: 9am to 6pm  Saturday: 10am to 6pm  Sunday: 10am to 2pm",
+      "lat": 48.85341,
+      "long": 2.3488
+    }
+  ]
+}

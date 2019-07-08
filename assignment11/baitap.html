@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css" >
+    <script src="javascript/jquery.js" type="text/javascript"></script>
+</head>
+<body>
+    <header>
+
+        <div class="top-link">
+            <div class="container">
+                <div class="currency">
+                    <b>Currency: GBP </b>
+                </div>
+                <div class="cart">
+                    <img src="cart.png">
+                </div>
+
+                <div class="Links_block">
+                    <a href="">Sign In</a>
+                </div>
+
+                <div class="Links_block">
+                    Register
+                </div>
+
+            </div>
+
+        </div>
+        <div class="header-main">
+            <div class="container">
+                <div class="logo">
+                    <img src="logo.png" alt="">
+                </div>
+                <nav class="nav">
+
+                    <div class="navlink">Look book</div>
+                    <div class="navlink">Local stores</div>
+                    <div class="navlink">The Brand</div>
+                    <div class="navlink">Womens</div>
+                    <div class="navlink">Mens</div>
+                </nav>
+            </div>
+
+        </div>
+    </header>
+
+    <section>
+        <div class="content_section1">
+            <span id="The"> <b>LOCAL</b> </span> <span id="Brand"> STORE </span> </br>
+            <p id="Slogan">FIND A STORE NEAR YOU</p>
+        </div>
+        <div class="container">
+            <div class="location">
+                <div class="block">
+                    <p>LONDON</p><br>
+                    <p>180-182 Regent Street, London, W1B 5BT</p><br>
+                    <p style="font-size: 13px">Lorem ipsum dolor sit amet, consectetur adipiscing esi elit. Vivamus at arcu sem.
+                        Vestibulum ornare eleifendit massa,nec tempor odio. Fusce posuere nunc iaculis ligula
+                        viverra iaculis. Aliquam erat volutpat.
+                    </p>
+                    <button class="button" type="button" onclick="initMap(51.50853,0.1278)">VIEW DETAIL</button>
+                </div>
+                <div class="block"  style="padding: 40px 30px 0px 30px">
+                    <p>NEWYORK</p><br>
+                    <p>109 Columbus Circle, New York, NY 10023</p><br>
+                    <p style="font-size: 13px">Nunc non posuere nisl. Etiam finibus vel dui nec lobortis. Aliquam egestas,
+                        sem quis condimentum venenatis, erat leo fermentum dolor,
+                        non sollicitudin massa mi eu nibh. Nullam vitae aliquam dui, non sodales nisl.
+                    </p>
+                    <button class="button" type="button" onclick="initMap(40.71427,-74.00597)">VIEW DETAIL</button>
+                </div>
+                <div class="block">
+                    <p>PARIS</p><br>
+                    <p>2133 Rue Saint-Honoré, 75001 Paris</p><br>
+                    <p style="font-size: 13px">Ut interdum fermentum blandit. Donec nec lacus egetit mi rhoncus eleifend.
+                        Curabitur laoreet nisl eget rutruml auctor.
+                        Vestibulum ante ipsum primis in faucibus orcip luctus et ultrices posuere cubilia curae cras ligula.
+                    </p>
+                    <button class="button" type="button" onclick="initMap(48.85341,2.3488)"><div>VIEW DETAIL</div></button>
+                </div>
+            </div>
+        </div>
+        <div class="detail">
+            <div id="map">
+
+            </div>
+            <div id="map-detail">
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p>
+
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer_section1">
+            <div class="container">
+
+                <div class="footer_block">
+                    <div class="block_head">
+                        <span>INFORMATION</span>
+                    </div>
+                    <div class="block_link">
+                        <span class="blue">The brand</span><br>
+                        <span>Local Store</span><br>
+                        <span>Customer service</span><br>
+                        <span>Privacy & cookies</span><br>
+                        <span>Site map</span><br>
+
+                    </div>
+                </div>
+                <div class="footer_block">
+                    <div class="block_head">
+                        <span>WHY BUY FROM US</span>
+                    </div>
+                    <div class="block_link">
+                        <span>Shipping & returns</span><br>
+                        <span>Secure shopping</span><br>
+                        <span>Testimonials</span><br>
+                        <span class="blue">Award winning</span><br>
+                        <span class="blue">Ethical trading</span><br>
+
+                    </div>
+                </div>
+                <div class="footer_block">
+                    <div class="block_head">
+                        <span>YOUR ACCOUNT</span>
+                    </div>
+                    <div class="block_link">
+                        <span>Sign in</span><br>
+                        <span>Register</span><br>
+                        <span>View cart</span><br>
+                        <span>View your lookbook</span><br>
+                        <span>Track an order</span><br>
+                        <span>Update information</span><br>
+
+                    </div>
+                </div>
+                <div class="footer_block">
+                    <div class="block_head">
+                        <span>LOOKBOOK</span>
+                    </div>
+                    <div class="block_link">
+                        <span>Latest posts</span><br>
+                        <span>Men’s lookbook</span><br>
+                        <span>Women’s lookbook</span><br>
+                        <span>Lookbooks RSS feed</span><br>
+                        <span>View your lookbook</span><br>
+                        <span>Delete your lookbook</span><br>
+
+                    </div>
+                </div>
+                <div class="footer_block">
+                    <div class="block_head">
+                        <span>CONTACT DETAILS</span>
+                    </div>
+                    <div class="block_link">
+                        <span>Head Office: Avenue Fashion,180-182 Regent Street, London.</span><br>
+                        <span>Telephone: 0123-456-789</span><br>
+                        <span>Email: support@yourwebsite.com</span><br>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer_section2">
+            <div class="container">
+                <div class="banner">
+                    <div class="text">
+                        <b>award winner</b><br>
+                        <span>fashion awards 2016</span><br>
+                    </div>
+                </div>
+                <div class="social">
+                    <img src="social.png">
+                </div>
+            </div>
+        </div>
+        <div class="footer_section3">
+            <div class="container">
+                <div class="copyr">© 2016 Avenue Fashion™</div>
+                <div class="design">
+                    <span>Design by RobbyDesigns.com</span>
+                </div>
+                <div class="dev">Dev by Loremipsum.com</div>
+            </div>
+
+        </div>
+    </footer>
+    <script src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap"
+            async defer></script>
+    <script src="javascript/script.js" type="text/javascript"></script>
+
+</body>
+</html>
