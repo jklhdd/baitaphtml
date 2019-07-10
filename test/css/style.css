@@ -6,11 +6,14 @@
     color: red;
 }
 td{
-    width: 120px;
+    width: 200px;
     height: 50px;
 }
 table, th, td {
 
     border: 1px solid black;
     border-collapse: collapse;
+}
+.form2 td{
+    width: 350px;
 }
